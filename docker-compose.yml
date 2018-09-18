@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  cats-db:
+    build: .
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: lolcat
+    ports:
+      - "5432:5432"

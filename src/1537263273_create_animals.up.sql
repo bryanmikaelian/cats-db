@@ -1,0 +1,2 @@
+CREATE USER kitty;
+GRANT ALL PRIVILEGES ON DATABASE animals TO kitty;
